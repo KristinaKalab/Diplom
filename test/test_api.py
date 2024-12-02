@@ -3,7 +3,7 @@ from page.api_page import ApiPage
 
 # Определите базовые данные
 base_url = "https://web-gate.chitai-gorod.ru/api/v2/search/product"
-token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzMyOTA1NzMsImlhdCI6MTczMzEyMjU3MywiaXNzIjoiL2FwaS92MS9hdXRoL2Fub255bW91cyIsInN1YiI6IjEwM2JjN2JmOTVlNWFmNzVjMjlmOGM3OWNlYzg5MzA5YmZiNTNkM2EwMDJiODY4ZmQ4ZDhhNDEyM2YzNjkxN2IiLCJ0eXBlIjoxMH0.e_pzxA23raGzhjCwRqF8RnM-XRoGyx7rxuB_H3b21WM"
+token = "ВАШ ТОКЕН"
 
 # Инициализация объекта API
 api_page = ApiPage(base_url, token)
