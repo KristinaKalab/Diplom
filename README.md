@@ -11,7 +11,6 @@
 - selenium
 - requests
 - allure
-- config
 
 ### Струткура:
 - ./test - тесты
@@ -24,3 +23,4 @@
 - pyp install pytest
 - pip install selenium
 - pip install webdriver-manager
+- pip install allure-pytest
