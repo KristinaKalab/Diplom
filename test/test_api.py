@@ -1,4 +1,3 @@
-import pytest
 import allure
 from page.api_page import ApiPage
 
@@ -8,6 +7,7 @@ token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzMyOTA1NzMsImlhdCI6MT
 
 # Инициализация объекта API
 api_page = ApiPage(base_url, token)
+
 
 @allure.epic("API Тестирование")
 @allure.feature("Поиск книг")
